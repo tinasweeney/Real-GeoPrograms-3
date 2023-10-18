@@ -16,19 +16,65 @@ public class B3_HalfTheRed extends World {
                 red = plane.howMuchRed();
                 green = plane.howMuchGreen();
                 blue = plane.howMuchBlue();
-                if (red > 254 && green > 254 && blue > 254 && col > 700 && row < 717) {
-                    plane.setPixelColor(100, green / 2, 150);
+//                if (red > 254 && green > 254 && blue > 254 && col > 700 && row < 717) {
+//                    plane.setPixelColor(200, green / 2, 200);
+//                }
+                if (red > 254 && green > 254 && blue > 254 && col > 90 && row < 600) {
+                    plane.setPixelColor(100, green / 2, 200);
+                }
+//                if (red > 133 && green > 166 && blue > 57 && col < 333 && row > 221) {
+//                    plane.setPixelColor(100, green / 2, 100);
+                if (red > 245 && green > 166 && blue > 56 && col > 140 && row < 510 && row > 11) {
+                    plane.setPixelColor(200, green / 3, 150);
+                }
+                if (red > 245 && green > 166 && blue > 56 && col > 160 && row < 500 && row > 10) {
+                    plane.setPixelColor(200, green / 3, 200);
+                }
+                if (red > 245 && green > 166 && blue > 56 && col > 180 && row < 480 && row > 9) {
+                    plane.setPixelColor(200, green / 3, 250);
+                }
+                if (red > 245 && green > 166 && blue > 56 && col > 200 && row < 460 && row > 8) {
+                    plane.setPixelColor(200, green / 2, 250);
+                }
+                if (red > 245 && green > 166 && blue > 56 && col > 220 && row < 440 && row > 7) {
+                    plane.setPixelColor(200, green / 2, 150);
+                }
+                if (red > 245 && green > 166 && blue > 56 && col > 240 && row < 420 && row > 6) {
+                    plane.setPixelColor(150, green / 3, 150);
                 } else {
-                    if (red > 254 && green > 254 && blue > 254 && col > 90 && row < 600) {
-                        plane.setPixelColor(100, green / 2, 150);
+                    if (red > 244 && green > 166 && blue > 56 && col > 100 && row < 40 && row > 30) {
+                        plane.setPixelColor(200, green / 3, 150);
 
-                        if (red > 131 && green > 166 && blue > 56 && col > 140 && row < 510 && row > 15) {
-                            plane.setPixelColor(200, green / 3, 150);
 
-                            if (red > 300 && green > 30 && green < 100 && col > 120 && row < 200) {
-                                plane.setPixelColor(10, green / 2, 100);
-                                plane.setPixelColor(100, 3, col / 4);
 
+
+//                            plane.startingAngle(90);
+//                            plane.isTrail = true;
+//                            plane.trailWidth = 10;
+//                            plane.setColor(0, 0, 200);
+//                            plane.move(111);
+//                            plane.turn(90);
+//                            plane.setColor(0, 0, 200);
+//                            plane.move(111);
+//                            plane.turn(90);
+//                            plane.setColor(0, 0, 200);
+//                            plane.move(111);
+//                            plane.turn(90);
+//                            plane.setColor(0, 0, 200);
+//                            plane.move(111);
+//                            plane.turn(90);
+//                        }
+
+
+//                if (red > 300 && green > 30 && green < 100 && col > 120 && row < 200) {
+//                    plane.setPixelColor(10, green / 2, 100);
+//                    plane.setPixelColor(100, 5, col / 4);
+//                } else {
+//                    if (red > 131 && green > 166 && blue > 56 && col > 140 && row < 510 && row > 15) {
+//                        plane.setPixelColor(200, green / 3, 150);
+//                                plane.move to add stuff 
+
+                    }
 //                        if (red > 200 && green > 5 && green < 255 && col > 220 && row < 100) {
 //                            plane.setPixelColor(255, 3, 150);
 //
@@ -49,17 +95,20 @@ public class B3_HalfTheRed extends World {
 //                    && col > 637 && row < 404
 
 //                    plane.teleport(col, 527 - row);
-                                //causes it to go upside down
-                                //plane.setPixelColor(avg, avg, avg);
+                    //causes it to go upside down
+                    //plane.setPixelColor(avg, avg, avg);
 
-                            }
-                        }
-                    }
                 }
+
             }
         }
     }
 }
+
+
+
+
+
 
 
 
